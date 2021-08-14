@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#pageContent{
+    padding-top: 2%;
+}
+
+#foot{
+    background-color: $purple;
+    position: absolute;
+    bottom: 0;
+    height: min-content;
+    width: 100%;
+}
+
+.row{
+    padding-bottom: 2%;
+}
