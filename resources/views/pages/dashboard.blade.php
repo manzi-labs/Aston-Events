@@ -16,7 +16,7 @@
                 {!!Form::open(['action' => ['App\Http\Controllers\DashboardController@update', $organiser->id], 'method' => 'POST']) !!}
                 <div class="col-md-6">
                   {{Form::label('name', 'Name')}}
-                  {{Form::text('name', $organiser->name, ['class'=> 'form-control', 'placeholder' => 'Name'])}}
+                  {{Form::text('name', $organiser->name, ['class'=> 'form-control', 'placeholder' => 'Name', 'type' => 'number'])}}
               </div>
               <div class="col-md-6">
                   {{Form::label('studentCode', 'Student Code')}}
