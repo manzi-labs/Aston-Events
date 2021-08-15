@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!--Bootstrap-->
-        <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+        <link rel="stylesheet" href="{{ secure_asset("css/app.css") }}">
 
         <title>Aston Events - @yield('title')</title>
 
