@@ -20,7 +20,7 @@
               </div>
               <div class="col-md-6">
                   {{Form::label('studentCode', 'Student Code')}}
-                  {{Form::textarea('studentCode', $organiser->studentCode, ['class'=> 'form-control', 'placeholder' => '0000'])}}
+                  {{Form::text('studentCode', $organiser->studentCode, ['class'=> 'form-control', 'placeholder' => '0000'])}}
               </div>
               <div class="col-12">
                 {{Form::hidden('_method', 'PUT')}}
